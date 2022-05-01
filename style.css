@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(197, 194, 191);
+}
+nav{
+background-color: rgb(7, 52, 63);
+height: 80px;
+width: 100%;
+}
+label.logo{
+    color: rgb(109, 103, 103);
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 80px;
+    padding-left: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.logo span{
+    color: white;
+    font-size: 17px;
+}
+nav input{
+    font-size: larger;
+    float: right;
+    line-height: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+ul{
+    float: right;
+    margin-right: 50px;
+}
+ul li{
+    line-height: 80px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+ul li a{
+    color: white;
+    margin: 0 20px;
+    border: 1px solid rgb(51, 0, 0);
+}
+.tiger{
+    float: right;
+    padding-top: 50px;
+    width: 40%;
+}
+.tiger img{
+    height: 400px;
+}
+.protect{
+    padding-top: 200px;
+    padding-left: 80px;
+}
+.protect p{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.protect a{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 550px;
+    border: 1px solid blue;
+    color: black;
+    background-color: darkgoldenrod;
+}
+.k li{
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: rgb(128, 0, 0);
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+
+}
+.update li {
+    display: inline-block;
+    background-color: rgb(20, 41, 41);
+    margin-left: 150px;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border: 1px solid black;
+    border-width: 5px;
+}
+.update li a{
+    color: aliceblue;
+}
+.update2 li{
+    display: inline-block;
+    background-color: rgb(20, 41, 41);
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border: 1px solid black;
+    border-width: 5px;
+}
+.update2 li a{
+    color: aliceblue;
+}
+.news{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: green;
+}
+.btn{
+    padding: 100px;
+    text-align: center;
+    border:  1px solid black;
+}
+.btn p{
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+input{
+    padding-left: 20px;
+    line-height: 20px;
+    margin: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
